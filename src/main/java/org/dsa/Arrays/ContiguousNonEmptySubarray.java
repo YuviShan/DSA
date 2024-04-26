@@ -9,7 +9,7 @@ import java.util.List;
 
 public class ContiguousNonEmptySubarray {
     public static void main(String[] args) {
-        List<Integer> A = Arrays.asList(-20,1, 2, 3, 4, -10);
+        List<Integer> A = Arrays.asList(1,2,3,-7,1,1,1,1,3,-7);
         int n = A.size();
         int ans = Integer.MIN_VALUE;
         int sum = 0;
